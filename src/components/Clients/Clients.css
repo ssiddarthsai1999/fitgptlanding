@@ -1,0 +1,26 @@
+.marquee-container {
+  animation: scrolling 18s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 16vw;
+  margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+}
+
+.marquee-item img {
+  display: block;
+  width: 100%;
+  scale: 130%;
+  /*   padding: 0 20px; */
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-144vw);
+  }
+}
